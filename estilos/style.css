@@ -2,7 +2,7 @@
 
 /*paleta cores
   laranja - AA8039
-  azul - 447784E  
+  azul - 447784  
 */
 
 *{
@@ -32,6 +32,8 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden;/*configuração usada para que as bordas da imagem que ficaram quadradas mesmo com border-radadius, fiquem arredondadas, pois ficaram escondidas */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 section#login > div#imagem{
     background: #447784 url('../imagens/pexels-mattysm-3693599.jpg') no-repeat;
